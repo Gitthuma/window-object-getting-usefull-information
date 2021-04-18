@@ -7,3 +7,5 @@ In this example we will solve a common problem — making sure your application 
 To start with, make a local copy of our window-resize-example.html and bgtile.png demo files. Open it and have a look — you'll see that we've got a &lt;div&gt; element covering a small part of the screen, which has got a background tile applied to it. We'll use that to represent our app UI area.
 
 Ref: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+
+Live web: https://gitthuma.github.io/window-object-getting-usefull-information/
