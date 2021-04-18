@@ -8,3 +8,12 @@ let winHeight =window.innerHeight;
 
 div.style.width = winWidth + 'px';
 div.style.height = winHeight + 'px';
+
+/*Use an event so that the div resizes as we resize the window. The Window object has an event available on it called resize, which is fired every time the window is resized — let's access that via the Window.onresize event handler and rerun our sizing code each time it changes.*/
+
+window.onresize = function(){
+    winWidth = window.innerWidth;
+    winHeight = window.innerHeight;
+    div.style.width = winWidth + 'px';
+    div.style.height = winHeight + 'px';
+}
